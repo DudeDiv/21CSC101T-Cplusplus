@@ -38,6 +38,6 @@ int main() {
     numberOfTurns++;
   }
   cout << "Victory!\n";
-  cout << "Yay! You won in " << numberOfTurns <<"turns.\n";
+  cout << "Yay! You won in " << numberOfTurns <<" turns.\n";
   return 0;
 }
