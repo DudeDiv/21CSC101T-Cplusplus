@@ -21,6 +21,7 @@ int main() {
     cin >> row;
   //Ask the player for a column
     cout << "Choose a column between 0 and 3: \n";
+    cin >> column;
   //Check if there's a ship in these coordinates
     if (ships[row][column]) {
       //If player hits a ship, remove it by setting the value as 0
