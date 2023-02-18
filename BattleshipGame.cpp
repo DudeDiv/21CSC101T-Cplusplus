@@ -29,7 +29,7 @@ int main() {
       //Increase the hit counter
       hits++;
       //Tell the player that they have hit a ship and how many ships are left
-      cout << "Hit! " << (4-ships) << "left.\n\n";
+      cout << "Hit! " << (4-hits) << "left.\n\n";
     } else {
       //Tell the player that they missed
       cout << "Miss!\n\n";
