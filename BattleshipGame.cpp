@@ -9,6 +9,7 @@ int main() {
     {0,0,1,0},
     {0,0,1,0}
   };
+  cout >> "Welcome to BATTLESHIP!\n"
   //Keep track of how many hits the player has and how many turns they have played in these variables
   int hits = 0;
   int numberOfTurns = 0;
