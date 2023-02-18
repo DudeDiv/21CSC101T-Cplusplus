@@ -4,10 +4,10 @@ using namespace std;
 int main() {
   //We put "1" to indicate there's a ship
   bool ships[4][4] = {
-    {'0','1','1','0'},
-    {'0','0','0','0'},
-    {'0','0','1','0'},
-    {'0','0','1','0'}
+    {0,1,1,0},
+    {0,0,0,0},
+    {0,0,1,0},
+    {0,0,1,0}
   };
   //Keep track of how many hits the player has and how many turns they have played in these variables
   int hits = 0;
